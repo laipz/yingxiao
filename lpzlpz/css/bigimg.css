@@ -1,0 +1,41 @@
+#bigimg{
+	height: 7.1rem;
+	background-color: red;
+}
+#bigimg .m_a_c{
+	background-color: yellow;
+	height: 100%;
+	position: relative;
+}
+#bigimg .m_a_c .bigimg_top{
+	display: block;
+	width: 100%;
+	height: 0.8rem;
+	background-color: #888;
+	position: relative;
+}
+/*#bigimg .m_a_c > div{
+	width: 2rem;
+	float: left;
+	background-color: red;
+}
+#bigimg .m_a_c .bigimg_big{
+	height: 2.1rem;
+}
+#bigimg .m_a_c .bigimg_small{
+	height: 1.05rem;
+}
+#bigimg .m_a_c > div img{
+	width: 100%；
+	height: 100%;
+}*/
+#bigimg .m_a_c > a.bigimg_img{
+	display: block;
+	width: 2rem;
+	float: left;
+	background-color: red;
+}
+#bigimg .m_a_c > a.bigimg_img > img{
+	display: block;
+	width: 2rem;
+}

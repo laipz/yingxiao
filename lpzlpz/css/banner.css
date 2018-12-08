@@ -1,0 +1,372 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/icon/iconfont.eot');
+  src: url('../font/icon/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/icon/iconfont.woff') format('woff'),
+  url('../font/icon/iconfont.ttf') format('truetype'),
+  url('../font/icon/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.1px;
+  -moz-osx-font-smoothing: grayscale;
+}
+#banner{
+	/*width: 100%;*/
+	height:7.2rem;
+	/*background-color: red;*/
+}
+#banner .m_a_c{
+  background-color: #000;
+  position: relative;
+}
+.banner_conter {
+  position: relative;
+  width: 7.5rem;
+  /*:::::y*/
+  height: 4.5rem;
+  margin:0 2.5rem 0 2rem;
+  /*box-shadow: 0 0 0.5rem green;*/
+  overflow: hidden;
+  background-color: red;
+}
+.banner_conter .wrap {
+  position: absolute;
+  width: 75rem;
+  /*:::::(x+2)*y*/
+  height: 4.5rem;
+  z-index: 1;
+}
+.banner_conter .wrap img {
+  float: left;
+  width: 7.5rem;
+  /*:::::y*/
+  height: 4.5rem;
+}
+.banner_conter .banner_button {
+  position: absolute;
+  right: 2.25rem;
+  bottom:0.15rem;
+  width: 3.2rem;
+  height: 0.05rem;
+  z-index: 2;
+}
+.banner_conter .banner_button span {
+  margin: 0 0.01rem;
+  display: inline-block;
+  float: left;
+  width: 0.38rem;
+  height: 0.05rem;
+  /*border-radius: 50%;*/
+  background-color: #888;
+  /*text-align: center;*/
+  color:white;
+  cursor: pointer;
+}
+.banner_conter .banner_button span.on{
+  background-color: red;
+}
+.banner_conter .arrow {
+  position: absolute;
+  width: 0.4rem;
+  height: 0.8rem;
+  top: 1.85rem;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 100;
+  line-height: 0.8rem;
+  text-align: center;
+  z-index: 2;
+  display: block;
+  background-color: rgba(0,0,0,0.3);
+}
+.banner_conter .arrow_left {
+  right: 0.6rem;
+}
+.banner_conter .arrow_right {
+  right: 0.1rem;
+}
+.banner_conter .arrow:hover {
+
+  background-color: rgba(0,0,0,0.8);
+  
+}
+  /*
+  轮播图图片数量：x
+  单个轮播图宽度：y
+ */
+#banner .banner_news{
+  display: block;
+  width: 2.5rem;
+  height: 4.49rem;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-color: #888;
+  border-width: 0 0 0.01rem 0;
+}
+#banner .banner_news .news_1,#banner .banner_news .news_2{
+  /*width: 100%;*/
+  width: 2.2rem;
+  height: 1.55rem;
+  margin: 0 auto;
+}
+#banner .banner_news .news_1{
+  display: block;
+  position: relative;
+  font-size: 0.16rem;
+  /*background-color: #000;*/
+}
+#banner .banner_news .news_1 > .news_1_1{
+  display: block;
+  width: 100%;
+  height: 0.36rem;
+  position: absolute;
+  top: 0.08rem;
+  left: 0;
+  /*background-color: #888;*/
+}
+#banner .banner_news .news_1 > .news_1_1 > a,#banner .banner_news .news_1 > .news_1_1 > div{
+  display: block;
+  height: 0.36rem;
+  font-size: 0.14rem;
+  line-height: 0.36rem;
+  color: #333;
+}
+#banner .banner_news .news_1 > .news_1_1 > div > a{
+  color: #5e5e5e;
+}
+#banner .banner_news .news_1 > .news_1_1 > div > a:hover{
+  color: red;
+}
+#banner .banner_news .news_1 .news_1_2{
+  display: block;
+  width: 100%;
+  height: 1.04rem;
+  position: absolute;
+  bottom: 0.07rem;
+  left: 0;
+
+}
+#banner .banner_news .news_1 .news_1_2 div{
+  display: block;
+  width: 100%;
+  height: 0.26rem;
+  overflow: hidden;
+}
+#banner .banner_news .news_1 .news_1_2 div a.new_tehui{
+  width: 0.24rem;
+  padding-right: 0.06rem;
+}
+#banner .banner_news .news_1 .news_1_2 div a{
+  display: block;
+  float: left;
+  color: #5e5e5e;
+  font-size: 0.12rem;
+  height: 0.26rem;
+  line-height: 0.26rem;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+#banner .banner_news .news_2{
+  border-style: dotted;
+  border-width: 0.01rem 0 0 0;
+  border-color: #888;
+
+}
+#banner .banner_news .news_2 a{
+  display: block;
+  width: 0.7rem;
+  height:50%;
+  float: left;
+  color: #888;
+
+}
+#banner .banner_news .news_2 a:hover{
+  color: red;
+
+}
+#banner .banner_news .news_2 a i{
+  display: block;
+  height:0.50rem;
+  width: 100%;
+  font-size: 0.40rem;
+  line-height: 0.5rem;
+  text-align: center;
+
+}
+#banner .banner_news .news_2 a p{
+  display: block;
+  width: 100%;
+  height:0.22rem;
+  font-size: 0.14rem;
+  line-height: 0.22rem;
+  text-align: center;
+
+}
+#banner .banner_news .news_3{
+  width: 100%;
+  height: 1.39rem;
+  background: url(../img/banner/news_1.jpg) no-repeat top center;
+  background-size: 100% auto;
+  overflow: hidden;
+}
+#banner .banner_knock{
+  display: block;
+  width: 100%;
+  height: 2.7rem;
+  background-color: #fff;
+  position: relative;
+}
+#banner .banner_knock > div{
+  display: block;
+  height: 2.5rem;
+  position: absolute;
+  top: 0.17rem;
+  border-style: solid;
+  border-width: 0.02rem 0.01rem 0.01rem 0.01rem;
+  border-color: red #888 #888 #888;
+
+}
+#banner .banner_knock .knock_1{
+  width: 9.5rem;
+  left: 0;
+  position: relative;
+  overflow: hidden;
+}
+#banner .banner_knock .knock_2{
+  width: 2.4rem;
+  right: 0;
+}
+#banner .banner_knock .knock_2 a{
+  display: block;
+  width: 100%;
+  height:100%;
+   background: url(../img/banner/knock_2.jpg) no-repeat bottom center;
+  background-size: 2.4rem 2.52rem;
+}
+#banner .banner_knock .knock_1_1{
+  display: block;
+  width: 100%;
+  height: 0.4rem;
+  border-style: solid;
+  border-width: 0 0 0.01rem 0;
+  border-color: #ccc;
+}
+#banner .banner_knock .knock_1_1 div{
+  display: block;
+  height: 100%;
+}
+#banner .banner_knock .knock_1_1 div.fl span,#banner .banner_knock .knock_1_1 div.fl p{
+  display: block;
+  height: 100%;
+  padding: 0 0.1rem;
+  float: left;
+  font-size: 0.18rem;
+  line-height: 0.4rem;
+  color: red;
+}
+#banner .banner_knock .knock_1_2{
+  display: block;
+  width: 19.04rem;
+  height: 2.1rem;
+  position: absolute;
+  /*background-color: red;*/
+}
+#banner .banner_knock .knock_1_2 a{
+  display: block;
+  width: 2.37rem;
+  height: 1.9rem;
+  float: left;
+  position: relative;
+  top: 0.1rem;
+  border-right: 0.01rem solid #888;
+
+
+  /*background-color: red;*/
+}
+#banner .banner_knock .knock_1_2 a img{
+  display: block;
+  height: 1.3rem;
+  margin: 0 auto;
+
+
+  /*background-color: red;*/
+}
+#banner .banner_knock .knock_1_2 a > div{
+  display: block;
+  height: 0.3rem;
+  width: 1.9rem;
+  /*background-color: red;*/
+  margin: 0.1rem auto 0 auto;
+
+
+  /*background-color: red;*/
+}
+#banner .banner_knock .knock_1_2 a > div > span{
+  display: block;
+  float: left;
+  height:0.3rem;
+  color: red;
+  font-size: 0.2rem;
+  line-height: 0.3rem;
+
+
+
+  /*background-color: red;*/
+}
+#banner .banner_knock .knock_1_2 a > div > del{
+  display: inline-block;
+  float: left;
+  height: 0.3rem;
+  padding: 0 0.05rem;
+  color: #999;
+  font-size: 0.12rem;
+  line-height: 0.34rem;
+}
+#banner .banner_knock .knock_1_2 a p{
+  display: block;
+  height: 0.2rem;
+  width: 1.9rem;
+  margin: 0 auto;
+  color: #888;
+  font-size: 0.14rem;
+  line-height: 0.2rem;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+#banner .banner_knock .knock_1:hover .knock_arrow{
+  display: block;
+}
+
+#banner .banner_knock .knock_1 .knock_arrow{
+  display: none;
+  height: 0.48rem;
+  width: 0.24rem;
+  background-color: #bbb;
+  position: absolute;
+  bottom: 0.71rem;
+  z-index: 2;
+  font-size: 0.24rem;
+  line-height: 0.48rem;
+  text-align: center;
+  color: #fff;
+}
+#banner .banner_knock .knock_1 .knock_arrow:hover{
+  background-color: #888;
+}
+
+#banner .banner_knock .knock_1 .knock_arrow_left{
+  left: 0;
+}
+#banner .banner_knock .knock_1 .knock_arrow_right{
+  right: 0;
+}

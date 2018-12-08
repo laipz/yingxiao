@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>轮播图</title>
+
+    <link type="text/css" rel="stylesheet" href="css/index.css">  
+    
+    <link type="text/css" rel="stylesheet" href="css/all.css">
+  <style>
+#tab .m_a_c .tab_right .tab_content{
+    display: block;
+    width: 9.9rem;
+    height: 4.7rem;
+    float: right;
+    /*font-size: 0.14rem;*/
+    background-color: #222;
+}
+#tab .m_a_c .tab_right .tab_content  li {
+    
+    width: 9.9rem;
+    height: 4.7rem;
+}
+#tab .m_a_c .tab_right a.tab_arrow{
+  position: absolute;
+  width: 0.4rem;
+  height: 0.8rem;
+  top: 2.7rem;
+  right: 0rem;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 100;
+  line-height: 0.8rem;
+  text-align: center;
+  z-index: 2;
+  background-color: rgba(0,0,0,0.3);
+  /*display: none;*/
+}
+/*#tab .m_a_c .tab_right:hover a.tab_arrow{
+  display: block;
+}*/
+#tab .m_a_c .tab_right a.tab_arrow:hover{
+  background-color: rgba(0,0,0,0.8);
+}
+#tab .m_a_c .tab_right .tab_content .tab_conter_banner{
+  width: 3.9rem;
+  height: 100%;
+  float: left;
+  background-color: blue;
+  position: relative;
+}
+#tab .m_a_c .tab_right .tab_content .tab_conter_banner .tab_wrap{
+  width: 19.5rem;
+  height: 100%;
+  position: absolute;
+}
+#tab .m_a_c .tab_right .tab_content .tab_conter_banner .tab_wrap a{
+  display: block;
+  width: 3.9rem;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+#tab .m_a_c .tab_right .tab_content .tab_conter_banner .tab_wrap a img{
+  display: block;
+  width: 3.9rem;
+  margin: 0 auto;
+}
+#tab .m_a_c .tab_right .tab_content .tab_conter_banner .tab_conter_button {
+  position: absolute;
+  right: 1.56rem;
+  bottom:1.21rem;
+  width: 0.78rem;
+  height: 0.16rem;
+  z-index: 2;
+  background-color: yellow;
+}
+#tab .m_a_c .tab_right .tab_content .tab_conter_banner .tab_conter_button span {
+  margin: 0.06rem 0.04rem;
+  display: inline-block;
+  float: left;
+  width: 0.18rem;
+  height: 0.04rem;
+  /*border-radius: 50%;*/
+  background-color: #888;
+  /*text-align: center;*/
+  color:white;
+  cursor: pointer;
+}
+#tab .m_a_c .tab_right .tab_content .tab_conter_banner .tab_conter_button span.on{
+/*.on{*/
+  background-color: red;
+}
+#tab .m_a_c .tab_right .tab_content .tab_conter_banner .tab_a {
+  position: absolute;
+  width: 0.4rem;
+  height: 0.8rem;
+  top: 1.95rem;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 100;
+  line-height: 0.8rem;
+  text-align: center;
+  z-index: 2;
+  display: block;
+  background-color: rgba(0,0,0,0.3);
+}
+#tab .m_a_c .tab_right .tab_content .tab_conter_banner .tab_a_left {
+  left: 0rem;
+}
+#tab .m_a_c .tab_right .tab_content .tab_conter_banner .tab_a_right {
+  right: 0rem;
+}
+#tab .m_a_c .tab_right .tab_content .tab_conter_banner .tab_a:hover {
+
+  background-color: rgba(0,0,0,0.8);
+  
+}
+  /*
+  轮播图图片数量：x
+  单个轮播图宽度：y
+ */
+
+  </style>
+</head>
+<body>
+ <section id="tab" class="m_a_b">
+    <div class="m_a_c">
+      
+      <div class="tab_right">
+        
+        <ul class="tab_content">
+            <li style="background-color:cornflowerblue;">
+
+              <div class="tab_conter_banner" style="overflow: hidden;">
+                <div class="tab_wrap" style="left: -3.9rem">
+                  <a href=""><img src="images/1-4.jpg" alt=""></a>
+                  <a href=""><img src="images/1-2.jpg" alt=""></a>
+                  <a href=""><img src="images/1-3.jpg" alt=""></a>
+                  <a href=""><img src="images/1-4.jpg" alt=""></a>
+                  <a href=""><img src="images/1-2.jpg" alt=""></a>
+                </div>
+                <div class="tab_conter_button">
+                  <span class="on">&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>           
+                </div>
+                <a href="javascript:;" rel="external nofollow" class="tab_a tab_a_left">&lt;</a>
+                <a href="javascript:;" rel="external nofollow" class="tab_a tab_a_right">&gt;</a>
+              </div>
+
+
+
+
+
+            </li>
+            <li style="display: none;background-color: burlywood;">我是two</li>
+            <li style="display: none;background-color:mediumaquamarine;">我是three</li>
+            <li style="display: none;background-color: burlywood;">我是two4</li>
+            <li style="display: none;background-color:mediumaquamarine;">我是three5</li>
+        </ul>
+        <a href="javascript:;" rel="external nofollow" class="tab_arrow" style="display: none;">&gt;</a>
+      </div>
+     
+    </div>
+  </section>
+  <script>
+
+var wrap = document.querySelector("#tab .tab_wrap");
+var next = document.querySelector("#tab .tab_a_right");
+var prev = document.querySelector("#tab .tab_a_left");
+    next.onclick = function () {
+      next_pic();
+    }
+    prev.onclick = function () {
+      prev_pic();
+    }
+    function next_pic () {
+      k++;
+      if(k > 2){
+        //x-1
+        k = 0;
+      }
+      showCurrentDot();
+      var newLeft;
+      if(wrap.style.left === "-15.6rem"){
+        //(x+1)y
+        newLeft = -7.8;
+        //y*2
+      }else{
+        newLeft = parseFloat(wrap.style.left)-3.9;
+      }
+      wrap.style.left = newLeft + "rem";
+    }
+    function prev_pic () {
+      k--;
+      if(k < 0){
+        k = 2;
+        //x-1
+      }
+      showCurrentDot();
+      var newLeft;
+      if(wrap.style.left === "0rem"){
+        newLeft = -7.8;
+        //x*(y-1)
+      }else{
+        newLeft = parseFloat(wrap.style.left)+3.9;
+      }
+      wrap.style.left = newLeft + "rem";
+    }
+    var timer = null;
+    function autoPlay () {
+      timer = setInterval(function () {
+        next_pic();
+      },2000);
+    }
+    autoPlay();
+ 
+    var banner_conter = document.querySelector(".tab_conter_banner");
+    banner_conter.onmouseenter = function () {
+      clearInterval(timer);
+    }
+    banner_conter.onmouseleave = function () {
+      autoPlay();  
+    }
+ 
+    var k = 0;
+    var dots = document.getElementsByTagName("span");
+    function showCurrentDot () {
+      for(var i = 0, len = dots.length; i < len; i++){
+        dots[i].className = "";
+      }
+      dots[k].className = "on";
+    }
+ 
+    for (var i = 0, len = dots.length; i < len; i++){
+      (function(i){
+        dots[i].onmouseenter = function () {
+          var dis = k - i;
+          if(k == 2 && parseFloat(wrap.style.left)!==-11.7){
+            //x-1    x*y
+            dis = dis - 3;   
+            //x
+          }
+          //和使用prev和next相同，在最开始的照片5和最终的照片1在使用时会出现问题，导致符号和位数的出错，做相应地处理即可
+          if(k == 0 && parseFloat(wrap.style.left)!== -3.9){
+            //0      y
+            dis = 3 + dis;
+            //x
+          }
+          wrap.style.left = (parseFloat(wrap.style.left) + dis * 3.9)+"rem";
+          k = i;
+          showCurrentDot();
+        }
+      })(i);      
+    }
+ 
+  </script>
+</body>

@@ -1,0 +1,226 @@
+html,body,section,div.m_a_c{
+    display: block;
+    height: 100%;
+}
+div.m_a_c{
+    position: relative;
+}
+#flash{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%,-50%);
+    -ms-transform: translate( -50%,-50%);
+    -moz-transform: translate( -50%,-50%);
+    -webkit-transform: translate( -50%,-50%);
+    -o-transform: translate( -50%,-50%);
+    overflow: hidden;
+}
+#playimages{ 
+    display: block;
+    font-size: 0.12rem;
+    z-index: 1;
+    float: left;
+    overflow: hidden;
+}
+
+#playimages #big_pic { 
+    display: block;
+    border: 0.01rem solid #ccc;
+    overflow: hidden;
+    position: relative;
+
+}
+#playimages #big_pic ul.big_pic { 
+    display: block;
+    cursor: crosshair; 
+    position: relative;
+}
+#playimages #big_pic ul.big_pic > li { 
+    display: block;
+    float: left;
+    z-index: 0; 
+    background: url(../img/images/loading.gif) no-repeat center center; 
+}
+
+#playimages #big_pic > ul li img {
+    display: block;
+}
+.small_pic{ 
+    position: relative; 
+    overflow: hidden; 
+}
+.small_pic ul { 
+    display: block;
+    float: left;
+    padding: 0 0.01rem;
+
+}
+.small_pic ul li { 
+    width: 0.4rem; 
+    float: left; 
+    background: url(../img/images/loading.gif) no-repeat center center; 
+    cursor: pointer; 
+    padding:0.1rem 0.05rem;
+    filter: alpha(opacity=60); 
+    opacity: 0.6;
+}
+.small_pic ul li img { 
+    display: block;
+    width: 0.4rem;
+}
+
+.shopping{
+    width: 5rem;
+    float: right;
+    height: 3.02rem;
+    z-index: 1;
+}
+.shopping .shopping_name{
+    display: block;
+    width: 5rem;
+    max-height: 0.52rem;
+    font-size: 0.16rem;
+    line-height: 0.26rem;
+    font-weight: 500;
+    text-align: left;
+    color: #5e5e5e;
+    white-space:normal;
+    word-break:break-all;
+    word-wrap:break-word;
+    overflow: hidden;
+}
+.shopping .shopping_recommendation{
+    display: block;
+    width: 5rem;
+    max-height: 0.2rem;
+    font-size: 0.12rem;
+    line-height: 0.20rem;
+    text-align: left;
+    color: #e3101e;
+     white-space:normal;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.shopping .shopping_juan{
+    display: block;
+    margin-top: 0.5rem;
+}
+.shopping .shopping_juan .shopping_juan_bg{
+    display: block;
+    width: 5rem;
+    height: 0.38rem;
+    background: url(../img/shopping/bg.png) no-repeat center center;
+}
+.shopping .shopping_juan .shopping_juan_bg i{
+    display: block;
+    height:0.38rem;
+    font-size: 0.16rem;
+    line-height: 0.38rem;
+    color: #fff;
+    float: left;
+    margin-left: 0.2rem;
+}
+.shopping .shopping_juan .shopping_juan_bg p{
+    display: block;
+    height:0.38rem;
+    font-size: 0.16rem;
+    line-height: 0.38rem;
+    padding-left: 0.1rem;
+    color: #fff;
+    float: left;
+}
+.shopping .shopping_juan .shopping_juan_bottom{
+    display: block;
+    width: 5rem;
+    height: 0.52rem;
+    background-color: #ddd;
+}
+.shopping .shopping_juan .shopping_juan_bottom span{
+    display: block;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    font-size: 0.14rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.shopping .shopping_juan .shopping_juan_bottom p{
+    display: block;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    font-size: 0.18rem;
+    float: left;
+    color: red;
+    margin-left: 0.2rem;
+}
+.shopping .shopping_juan .shopping_juan_bottom del{
+    display: block;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    font-size: 0.12rem;
+    float: left;
+    color: #5e5e5e;
+    margin-left: 0.1rem;
+}
+.shopping .shopping_juan .shopping_juan_bottom a{
+    display: block;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    font-size: 0.16rem;
+    float: right;
+    color: #e3101e;
+    margin-right: 0.25rem;
+}
+.shopping .shopping_jiagou{
+    display: block;
+    width: 1.4rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.16rem;
+    color: #fff;
+    text-align: center;
+    margin: 0.5rem auto 0 auto;
+    background-color: #e3101e;
+    cursor: pointer; 
+}
+#flash .bimg{
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0.01rem solid #ccc;
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+    overflow:hidden;
+    display:none;
+}
+#flash .bimg img{
+    width: 3rem;
+    position: absolute;
+}
+#playimages #big_pic > .move { 
+    width: 50%;
+    height: 50%;
+    display:block; 
+    background:#fff;
+    position:absolute; 
+    left:0rem; 
+    top:0rem;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    opacity:0.5;
+    display:none;
+
+}
+#playimages #big_pic > .shade { 
+    width: 100%; 
+    height: 100%;
+    position:absolute; 
+    top:0px; 
+    left:0px;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    opacity:0.5;
+    cursor: crosshair; 
+}

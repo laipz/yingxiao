@@ -1,0 +1,318 @@
+#l_screen > .taba{
+	height: 5.45rem;
+	background-color: #ddd;
+	padding-top: 0.3rem;
+
+}
+#l_screen > .taba .m_a_c{
+	background-color: #fff;
+	height: 100%;
+	/*width: 2rem;*/
+}
+#l_screen > .taba .m_a_c .tab_left{
+	width: 2.1rem;
+	height: 100%;
+	float: left;
+	background-color: rgb(113, 158, 247);
+  /*background-color: #000;*/
+}
+#l_screen > .taba .m_a_c .tab_left .tab_left_top{
+	width: 100%;
+	height: 0.74rem;
+	font-size: 0.16rem;
+	font-weight: 700;
+	color: #000;
+	line-height: 1.2rem;
+	background-color: #fff;
+}
+#l_screen > .taba .m_a_c .tab_left .tab_left_bottom{
+  display: block;
+	width: 100%;
+	height: 4.7rem;
+  border-style: solid;
+  border-width: 0.01rem 0 0 0;
+  border-color: rgb(113, 158, 247);
+  /*background-color: red;*/
+}
+#l_screen > .taba .m_a_c .tab_left .tab_left_bottom > a{
+	display: block;
+	width: 2.1rem;
+	height: 2.8rem;
+  background: url(../img/tab/left.png) no-repeat;
+  background-position: -0.1rem top;
+	background-size: 2.2rem;
+	overflow: hidden;
+
+}
+#l_screen > .taba .m_a_c .tab_left .tab_left_bottom > ul{
+	display: block;
+	width: 1.92rem;
+	height: 0.32rem;
+	/*padding: 0 0.09rem;*/
+	color: #fff;
+	background-color: #6294f6;
+	overflow: hidden;
+
+}
+#l_screen > .taba .m_a_c .tab_left .tab_left_bottom > ul li{
+	float: left;
+
+}
+#l_screen > .taba .m_a_c .tab_left .tab_left_bottom > ul a{
+	/*display: block;*/
+	height: 0.32rem;
+	float: left;
+	line-height: 0.32rem;
+	font-size: 0.16rem;
+	text-align: center;
+	overflow: hidden;
+	color: #fff;
+
+}
+#l_screen > .taba .m_a_c .tab_left .tab_left_bottom > ul a:hover{
+	color: red;
+}
+#l_screen > .taba .m_a_c .tab_left .tab_left_bottom > ul i{
+	/*display: block;*/
+	height: 0.32rem;
+	width: 0.16rem;
+	float: left;
+	line-height: 0.32rem;
+	font-size: 0.16rem;
+
+}
+#l_screen > .taba .m_a_c .tab_left .tab_left_bottom > div{
+	display: block;
+	width: 2.1rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	margin-top: 0.04rem;
+  /*padding-left: 0.06rem;*/
+	overflow: hidden;
+
+}
+#l_screen > .taba .m_a_c .tab_left .tab_left_bottom > div > a{
+  display: block;
+  width: 0.48rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  /*text-align: left;*/
+  float: left;
+  color: #fff;
+  font-size: 0.12rem;
+  padding: 0 0.1rem;
+  overflow: hidden;
+
+}
+#l_screen > .taba .m_a_c .tab_left .tab_left_bottom > div a:hover{
+  line-height: 0.25rem;
+  color: #000;
+
+}
+
+
+#l_screen > .taba .m_a_c .tab_right{
+	width: 9.9rem;
+	height:100%;
+	float: left;
+	position: relative;
+
+}
+#l_screen > .taba .m_a_c .tab_right .tab_list  {    
+    display: block;
+    /*width: 4.3rem;*/
+    height: 0.29rem;
+    padding-top: 0.45rem;
+    float: right;
+    font-size: 0.14rem;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_list  li{ 
+	display: block;        
+    float: left;
+    text-align: center;
+    width: 0.56rem;
+    height: 0.3rem;
+    padding: 0 0.15rem;
+    line-height: 0.3rem;
+    font-size: 0.14rem;
+    color: #5e5e5e;
+    cursor:pointer;
+    /*background-color: #000;*/
+}
+#l_screen > .taba .m_a_c .tab_right .tab_list  li.hover{  
+  background-color: rgb(113, 158, 247);
+	color: #fff;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content{
+  	display: block;
+    width: 9.9rem;
+    height: 4.7rem;
+    float: right;
+    /*font-size: 0.14rem;*/
+    border-style: solid;
+    border-width: 0.01rem 0 0 0;
+    border-color: rgb(113, 158, 247);
+    background-color: #222;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content  li {
+    
+    width: 9.9rem;
+    height: 4.7rem;
+}
+#l_screen > .taba .m_a_c .tab_right a.tab_arrow{
+  position: absolute;
+  width: 0.4rem;
+  height: 0.8rem;
+  top: 2.7rem;
+  right: 0rem;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 100;
+  line-height: 0.8rem;
+  text-align: center;
+  z-index: 2;
+  background-color: rgba(0,0,0,0.3);
+  /*display: none;*/
+}
+/*.tab .m_a_c .tab_right:hover a.tab_arrow{
+	display: block;
+}*/
+#l_screen > .taba .m_a_c .tab_right a.tab_arrow:hover{
+  background-color: rgba(0,0,0,0.8);
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content .tab_conter_banner{
+  width: 3.9rem;
+  height: 100%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content .tab_conter_banner .tab_wrap{
+  /*width: 19.5rem;*/
+  height: 100%;
+  position: absolute;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content .tab_conter_banner .tab_wrap a{
+	display: block;
+	width: 3.9rem;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content .tab_conter_banner .tab_wrap a img{
+	display: block;
+	width: 3.9rem;
+	margin: 0 auto;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content .tab_conter_banner .tab_conter_button {
+  position: absolute;
+  right: 1.56rem;
+  /*bottom:1.21rem;*/
+  bottom: 0.1rem;
+  width: 0.78rem;
+  height: 0.16rem;
+  z-index: 2;
+  /*background-color: yellow;*/
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content .tab_conter_banner .tab_conter_button span {
+  margin: 0.06rem 0.04rem;
+  display: inline-block;
+  float: left;
+  width: 0.18rem;
+  height: 0.04rem;
+  /*border-radius: 50%;*/
+  background-color: #888;
+  /*text-align: center;*/
+  color:white;
+  cursor: pointer;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content .tab_conter_banner .tab_conter_button span.on{
+  background-color: red;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content .tab_conter_banner .tab_a {
+  position: absolute;
+  width: 0.4rem;
+  height: 0.8rem;
+  top: 1.95rem;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 100;
+  line-height: 0.8rem;
+  text-align: center;
+  z-index: 2;
+  display: block;
+  background-color: rgba(0,0,0,0.3);
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content .tab_conter_banner .tab_a_left {
+  left: 0rem;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content .tab_conter_banner .tab_a_right {
+  right: 0rem;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content .tab_conter_banner .tab_a:hover {
+
+  background-color: rgba(0,0,0,0.8);
+  
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content li a.tab_mobile{
+  display: block;
+  width: 1.99rem;
+  height:2.34rem;
+  border-style: solid;
+  border-width: 0 0.01rem 0.01rem 0;
+  border-color: #888;
+  background-color: #fff;
+  float: left;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content li a.tab_mobile img{
+  display: block;
+  width: 100%;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content li a.tab_tena{
+  display: block;
+  width: 1.97rem;
+  height:2.34rem;
+  border-style: solid;
+  border-width: 0 0.01rem 0.01rem 0;
+  border-color: #888;
+  background-color: #fff;
+  float: left;
+  position: relative;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content li a.tab_tena img{
+  display: block;
+  width: 1.3rem;
+  height: 1.3rem;
+  margin: 0.20rem 0 0.30rem 0.34rem;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content li a.tab_tena p.p_name{
+  display: block;
+  height: 0.14rem;
+  width: 1.47rem;
+  /*text-align: left;*/
+  font-size: 0.12rem;
+  line-height: 0.14rem;
+  color: #5e5e5e;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  margin-left: 0.2rem;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content li a.tab_tena:hover p.p_name{
+  color: red;
+}
+#l_screen > .taba .m_a_c .tab_right .tab_content li a.tab_tena p.p_price{
+  /*width: 0.98rem;*/
+  height: 0.16rem;
+  position: absolute;
+  bottom: 0.07rem;
+  left: 0.99rem;
+  line-height: 0.16rem;
+  font-size: 0.16rem;
+  transform: translateX( -50%);
+  -ms-transform: translateX( -50%);
+  -moz-transform: translateX( -50%);
+  -webkit-transform: translateX( -50%);
+  -o-transform: translateX( -50%);
+  color: red;
+}

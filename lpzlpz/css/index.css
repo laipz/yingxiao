@@ -1,0 +1,346 @@
+@media (max-width: 992px) {
+
+#s_screen{
+    display: block!important;
+}
+#l_screen{
+    display: none!important;
+}
+#s_screen{
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    font-size: 16px;
+    font-weight: 700;
+}
+h1{
+    display: none!important;
+}
+
+
+}
+/*1111*/
+/*1111*/
+/*1111*/
+/*1111*/
+/*手机端*/
+
+
+/*共同样式*/
+/*共同样式*/
+/*共同样式*/
+/*共同样式*/
+/*共同样式*/
+/*共同样式*/
+#s_screen{
+    display: none;
+}
+#l_screen,main,h1{
+    display: block;
+}
+h1{
+    width: 100%;
+    height: 0.8rem;
+    background: url(../img/992/h1.jpg) no-repeat center center;
+    background-color: red;
+    text-indent: -9999px;
+    z-index: 5;
+}
+header{
+    width: 100%;
+    height: 1.9rem;
+    position: relative;
+}
+header > div.m_a_b{
+    background-color: #f8f8f8;
+}
+header > div.m_a_b > div.bgc_fi{
+    width: 12rem;
+    height: 0.3rem;
+}
+header > div.m_a_b > div.bgc_fi nav ul{
+    display: block;
+    height:100%;
+    color: #5e5e5e;
+}
+header > div.m_a_b > div.bgc_fi nav ul li{
+    display: block;
+    float: left;
+    padding: 0 0.05rem;
+    font-size: 0.12rem;
+    line-height: 0.3rem;
+}
+header > div.m_a_c{
+    position: relative;
+}
+header > div.m_a_c > h2{
+    display: block;
+    width: 1.25rem;
+    height:1.2rem;
+    text-indent: -9999rem;
+    background: url(../img/h2.jpg) no-repeat left center;
+    background-size: 1.25rem 1.2rem;
+    float: left;
+}
+header > div.m_a_c .h_right{
+    display: block;
+    width: 1.91rem;
+    height:1.2rem;
+    text-indent: -9999px;
+    background: url(../img/h2_2.png) no-repeat left center;
+    background-size: 1.91rem 0.62rem;
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+
+}
+header > div.m_a_c .h_search{
+    display: block;
+    width: 5.06rem;
+    height: 1.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+header > div.m_a_c .h_search .h_s_t,header .h_search .h_s_b{
+    display: block;
+    width: 100%;
+    position: relative;
+    top: 0.29rem;
+    right: 0rem;
+}
+header > div.m_a_c .h_search .h_s_t{
+    height: 0.37rem;
+}
+header > div.m_a_c .h_search .h_s_b{
+    height: 0.25rem;
+}
+.h_s_t_0{
+    display: block;
+    border-style: solid;
+    border-color: #dd00a7;
+    float: left;
+    height: 100%;
+}
+.h_s_t_1{
+    width: 0.61rem;
+    border-width: 0.01rem 0 0.01rem 0.01rem;
+
+}
+.h_s_t_2{
+    width: 3.45rem;
+    border-width: 0.01rem 0 0.01rem 0.01rem;
+}
+.h_s_t_3{
+    width: 0.96rem;
+    border-width: 0.01rem;
+    background-color: #dd00a7;
+    font-size: 0.18rem;
+    line-height:0.37rem;
+    text-align: center;
+}
+header > div.m_a_c .h_search .h_s_b a{
+    display: block;
+    height: 100%;
+    padding-right: 0.03rem;
+    color: #5e5e5e;
+    font-size: 0.12rem;
+    line-height: 0.25rem;
+    float: left;
+}
+header > div.m_a_c .h_search .h_s_b a:hover,header > div.m_a_b > div.nav > div.nav_c > li a:hover{ 
+    color: red;
+}
+header > div.m_a_b > div.nav{
+    display: block;
+    width: 12rem;
+    height: 0.4rem;
+    position: relative;
+}
+header > div.m_a_b > div.nav > div{
+    display: block;
+    height: 100%;
+    float: left;
+}
+header > div.m_a_b > div.nav > div.nav_l{
+    display: block;
+    width: 2rem;
+    position: relative;
+}
+header > div.m_a_b > div.nav > div.nav_l > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #585858; 
+    font-size:0.15rem;
+    line-height: 0.4rem;
+    text-indent: 0.15rem;
+    font-weight: 700;
+    background-color: #f1f1f1;
+}
+header > div.m_a_b > div.nav > div.nav_l > div{
+    display: none;
+    width: 2rem;
+    height: 1rem;
+    position: absolute;
+    left: 0rem;
+    top: 0.4rem;
+    background-color: red;
+}
+header > div.m_a_b > div.nav > div.nav_c{
+    width: 7.5rem;
+    /*background-color: #000;*/
+}
+header > div.m_a_b > div.nav > div.nav_c > li{
+    display: block;
+    height: 100%;
+    float: left;
+    padding: 0 0.13rem;
+
+}
+header > div.m_a_b > div.nav > div.nav_c > li a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: #000;
+    line-height: 0.4rem;
+    font-size: 0.15rem;
+
+}
+header > div.m_a_b > div.nav > div.nav_r{
+    width: 2.5rem;
+    /*background-color: #000;*/
+}
+header > div.m_a_b > div.nav > div.nav_r div.nav_r_r{
+    width: 1rem;
+    height: 100%;
+    float: right;
+}
+header > div.m_a_b > div.nav > div.nav_r div.nav_r_r div{
+    width: 0.5rem;
+    height: 100%;
+    float: right;
+    font-size: 0.18rem;
+    line-height: 0.4rem;
+    text-align: center;
+    color: #555;
+    cursor: pointer;
+}
+header > div.m_a_b > div.nav > div.nav_r div.nav_r_r div:hover{
+    color: red;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#denglv{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    /*display: none;*/
+    background: url(../img/denglv/bg.jpg) no-repeat center center;
+    background-size:100%;
+    background-color: #039dcf;
+}
+#denglv .denglv_d,#denglv .denglv_z,#denglv .denglv_m{
+    width: 3.24rem;
+    /*height: 1rem;*/
+    /*background-color: red;*/
+    margin:1rem auto;
+    /*display: none;*/
+}
+#denglv .denglv_d #loginFrom_d{
+    width: 3.24rem;
+    position: relative;
+}
+#denglv .denglv_d #loginFrom_d > div,#denglv .denglv_z #loginFrom_z > div,#denglv .denglv_m #loginFrom_m > div{
+    display: block;
+    height: 0.4rem;
+    width: 100%;
+    line-height: 0.4rem;
+    font-size: 0.16rem;
+    color: #000;
+    /*background-color: blue;*/
+}
+#denglv .denglv_d #loginFrom_d span,#denglv .denglv_z #loginFrom_z span,#denglv .denglv_m #loginFrom_m span{
+    display: block;
+    height: 0.4rem;
+    float: left;
+    line-height: 0.4rem;
+    /*padding-left: 0.2rem;*/
+    /*text-align: left;*/
+    font-size: 0.16rem;
+
+}
+#denglv .denglv_d #loginFrom_d span.one,#denglv .denglv_z #loginFrom_z span.one,#denglv .denglv_m #loginFrom_m span.one{
+    width: 0.64rem;
+
+}
+#denglv .denglv_d #loginFrom_d span.two,#denglv .denglv_z #loginFrom_z span.two,#denglv .denglv_m #loginFrom_m span.two{
+    width: 2.6rem;
+    /*background-color: blue;*/
+
+}
+#denglv .denglv_d #loginFrom_d span input,#denglv .denglv_z #loginFrom_z span input,#denglv .denglv_m #loginFrom_m span input{
+    width: 2.6rem;
+}
+#denglv .denglv_d #loginFrom_d > div >input,#denglv .denglv_z #loginFrom_z > div >input,#denglv .denglv_m #loginFrom_m > div >input{
+    display: block;
+    height: 0.3rem;
+    width: 0.9rem;
+    color: #000;
+    text-align: center;
+    margin: 0.3rem auto;
+    line-height: 0.2rem;
+    font-size: 0.16rem;
+    border: 0.05rem solid #dedede;
+    -moz-border-radius: 0.3rem;      /* Gecko browsers */
+    -webkit-border-radius: 0.3rem;   /* Webkit browsers */
+    border-radius:0.3rem;            /* W3C syntax */
+}
+#denglv .denglv_d #loginFrom_d > div#denglv_z{
+    display: block;
+    width: 0.36rem;
+    height: 0.14rem;
+    line-height: 0.14rem;
+    color: #222;
+    position: absolute;
+    left: 0rem;
+    bottom: -0.5rem;
+    font-size: 0.14rem;
+    text-align: left;
+}
+#denglv .denglv_d #loginFrom_d > div#denglv_m{
+    display: block;
+    width: 0.72rem;
+    height: 0.14rem;
+    line-height: 0.14rem;
+    color: #222;
+    position: absolute;
+    right: 0;
+    bottom: -0.5rem;
+    font-size: 0.14rem;
+    text-align: right;
+}
+#denglv .denglv_d #loginFrom_d div#denglv_m:hover,#denglv .denglv_d #loginFrom_d div#denglv_z:hover{
+    font-size: 0.16rem;
+    line-height: 0.16rem;
+    color: red;
+}
+#denglv .denglv_g{
+    display: block;
+    width: 0.18rem;
+    height:0.18rem;
+    line-height: 0.18rem;
+    text-align: center;
+    font-size: 00.18rem;
+    color: #000;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+#denglv .denglv_g:hover{
+    color: red;
+
+}
